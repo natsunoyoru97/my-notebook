@@ -1,0 +1,26 @@
+{
+    "name": "my-notebook",
+    "description": "My LeetCode Notebook",
+    "version": "0.0.1",
+    "maintainers": [
+        {
+        "name": "natsunoyoru97"
+        }
+    ],
+    "dependencies": {
+        "gitbook-plugin-ace": "^0.3",
+        "gitbook-plugin-ga": "^2.0.0",
+        "gitbook-plugin-include-codeblock": "^3.2.2",
+        "gitbook-plugin-prism": "^2.4.0",
+        "gitbook-plugin-wordcount": "^0.0.1",
+        "honkit": "^3.6.16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:natsunoyoru97/my-notebook.git"
+    },
+    "scripts": {
+        "build": "honkit build",
+        "serve": "honkit serve"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "root": "./",
+    "title": "My LeetCode Notebook",
+    "plugins": [
+        "wordcount",
+        "include-codeblock",
+        "prism",
+        "-highlight"
+    ],
+    "pluginsConfig": {
+        "include-codeblock": {
+            "fixlang": true,
+            "unindent": true
+        },
+        "prism": {
+            "lang": {
+                "c++": "cpp"
+            },
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"
+            ]
+        }
+    },
+    "author": "natsunoyoru97"
+}
